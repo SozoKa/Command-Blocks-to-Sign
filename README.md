@@ -1,2 +1,2 @@
 # Command Block to Sign
-Convert your commanc blocks into signs
+Convert your commandblocks into signs
