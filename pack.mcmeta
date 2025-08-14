@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"pack_format": 71,
+		"supported_formats": [71, 81],
+		"min_format": 71,
+		"max_format": 999,
+		"description": "§8By §cSozoKa §7for §d1.21.5+ §8- §7Turn command blocks into signs"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": [71, 81],
+				"min_format": 71,
+				"max_format": 999,
+				"directory": "v71-1.21.5"
+			}
+		]
+	}
+}

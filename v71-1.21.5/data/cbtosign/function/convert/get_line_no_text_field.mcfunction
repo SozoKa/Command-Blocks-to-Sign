@@ -1,0 +1,1 @@
+$data modify storage cbtosign:data sign.line_$(current_line) set from block ~ ~ ~ front_text.messages[$(current_line)]

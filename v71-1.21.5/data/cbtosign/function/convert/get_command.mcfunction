@@ -1,0 +1,1 @@
+$data modify storage cbtosign:data sign.command_$(current_line) set from block ~ ~ ~ Command

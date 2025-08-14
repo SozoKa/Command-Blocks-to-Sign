@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:oak_sign"
+        },
+        "title": "Command Blocks to Sign",
+        "description": "§8Made for §c1.21.5+\n§8v1.0.0-v71\n\n§7Convert command blocks to clickable signs by waxing a sign that has command blocks (max 4) behind it.\n\n§8by §cSozoKa",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "sozoka:root",
+    "criteria": {
+        "Install \"COMMAND BLOCKS TO SIGN\" datapack": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
