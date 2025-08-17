@@ -1,2 +1,6 @@
 1.0.0
-- release of the datapack
+* release of the datapack
+
+1.0.1
+* Changed the load message title
+* Reworked overlays (now that i understand them properly...)

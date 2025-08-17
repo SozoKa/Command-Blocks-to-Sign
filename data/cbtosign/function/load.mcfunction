@@ -9,6 +9,6 @@
 # 
 
 ## RUNNING MESSAGE
-tellraw @a {"text":"§7■§6§l COMMAND BLOCKS TO SIGN §8§l| §7By §cSozoKa §8- §7running!"}
+tellraw @a {"text":"§7■§6§l Command Blocks to Sign §8§l| §7By §cSozoKa §8- §7running!"}
 ## SCOREBOARD NEEDED
 scoreboard objectives add cbtosign dummy
