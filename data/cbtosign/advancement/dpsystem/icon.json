@@ -4,7 +4,7 @@
             "id": "minecraft:oak_sign"
         },
         "title": "Command Blocks to Sign",
-        "description": "§8Made for §c1.21.5+\n§8v1.0.1\n\n§7Convert command blocks to clickable signs by waxing a sign that has command blocks (max 4) behind it.\n\n§8by §cSozoKa",
+        "description": "§8Made for §c1.21.5+\n§8v1.1.0\n\n§7Convert command blocks to clickable signs by waxing a sign that has command blocks (max 4) behind it.\n\n§8by §cSozoKa",
         "show_toast": false,
         "announce_to_chat": false
     },

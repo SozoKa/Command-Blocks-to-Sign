@@ -1,5 +1,7 @@
 ## RESET STORAGE DATA
 data remove storage cbtosign:data sign
+## CREATE TEMPLATE
+data modify storage cbtosign:data sign_result.block_entity_data set value {id:"minecraft:sign",front_text:{has_glowing_text:0b,color:"black",messages:[{text:"",click_event:{action:"run_command",command:""}},{text:"",click_event:{action:"run_command",command:""}},{text:"",click_event:{action:"run_command",command:""}},{text:"",click_event:{action:"run_command",command:""}}]}}
 ## AS SIGN IS ON A COMMAND BLOCK, DO THE SETUP ON MARKER POSITION REFERENCE
 execute as @e[type=marker,tag=cbtosign_marker] at @s run function cbtosign:convert/setup
 ## GET ALL COMMANDS
@@ -13,8 +15,6 @@ data modify storage cbtosign:data sign.command_3 set value ""
 # search for command blocks
 function cbtosign:convert/search_command_blocks
 ## NOW THAT ALL VALUES ARE COLLECTED, INSERT THEM INTO SIGN ITEM
-# create template
-data modify storage cbtosign:data sign_result.block_entity_data set value {id:"minecraft:sign",front_text:{messages:[{text:"",click_event:{action:"run_command",command:""}},{text:"",click_event:{action:"run_command",command:""}},{text:"",click_event:{action:"run_command",command:""}},{text:"",click_event:{action:"run_command",command:""}}]}}
 # fill out template
 data modify storage cbtosign:data sign_result.block_entity_data.front_text.messages[0].text set from storage cbtosign:data sign.line_0
 data modify storage cbtosign:data sign_result.block_entity_data.front_text.messages[0].click_event.command set from storage cbtosign:data sign.command_0
